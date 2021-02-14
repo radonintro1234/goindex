@@ -9,26 +9,16 @@ var authConfig = {
 
   roots: [
     {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
-    },
-    {
       id: "root",
       name: "PrivateDrive",
       user: "",
       pass: "",
       protect_file_link: true,
     },
-    {
-      id: "",
-      name: "folder1",
-      pass: "",
-    },
   ],
 
   default_gd: 0,
-  files_list_page_size: 50,
+  files_list_page_size: 100,
   search_result_list_page_size: 50,
   enable_cors_file_down: false,
   enable_password_file_verify: false,
@@ -36,7 +26,7 @@ var authConfig = {
 
 var themeOptions = {
   cdn: "https://cdn.jsdelivr.net/gh/radonintro1234/goindex",
-  version: "2.1",
+  version: "18fcb0ef1b76e1593e35d55f34730d040e50aa28",
   languages: "en",
 
   render: {
@@ -47,7 +37,8 @@ var themeOptions = {
 
   video: {
     api: "",
-    autoplay: true,
+    volume: 0,
+    autoplay: false,
   },
 
   audio: {
@@ -101,14 +92,14 @@ function html(current_drive_order = 0, model = {}) {
     <meta name="twitter:description" content="Combining the power of Cloudflare Workers and Google Drive will allow you to index your files on the browser on Cloudflare Workers.">
     <meta name="keywords" content="goindex, google, drive, goindex, gdindex, classic, material, workers-script, oauth-consent-screen, google-drive, cloudflare-workers, themes">
     <meta name="twitter:title" content="Goindex">
-    <meta name="twitter:url" content="https://github.com/alx-xlx/goindex">
+    <meta name="twitter:url" content="https://github.com/radonintro1234/goindex">
     <link rel="shortcut icon" href="https://i.imgur.com/rOyuGjA.gif">
     <meta property="og:site_name" content="Goindex">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://i.imgur.com/rOyuGjA.gif">
     <meta property="og:description" content="Combining the power of Cloudflare Workers and Google Drive will allow you to index your files on the browser on Cloudflare Workers.">
     <meta property="og:title" content="Goindex">
-    <meta property="og:url" content="https://github.com/alx-xlx/goindex">
+    <meta property="og:url" content="https://github.com/radonintro1234/goindex">
     <link rel="apple-touch-icon" href="https://i.imgur.com/rOyuGjA.gif">
     <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/rOyuGjA.gif">
     <meta name="google-site-verification" content="OD_AXMYw-V6ID9xQUb2Wien9Yy8IJSyfBUyejYNB3CU"/>

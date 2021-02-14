@@ -7,7 +7,7 @@
             <a
               class="tag is-dark"
               href="https://github.com/radonintro1234/goindex"
-            >goindex-theme-acrou</a>
+            >RadonGas</a>
             <span class="tag is-light">
               MIT &nbsp;
               <span class="icon">
